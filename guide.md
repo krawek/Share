@@ -1,5 +1,5 @@
 # Marvify 3D Viewer  
-## Guide för användning på er webbplats och i sociala medier
+## Guide för användning
 
 ---
 
