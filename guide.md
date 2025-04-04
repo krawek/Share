@@ -13,7 +13,7 @@ Marvify erbjuder en interaktiv 3D-visare som gör det möjligt för er att visa 
 
 Vissa av exemplen i den här guiden kräver att ni kan lägga in en länk eller ett HTML-element på er webbplats eller e-handelsplattform.  
 Om ni är osäkra – klicka här för en enkel introduktion:  
-**[Länk till HTML/JS guide]()**
+**[Länk till HTML/JS guide](#)**
 
 ---
 
