@@ -5,7 +5,7 @@
 
 ## Vad är Marvify?
 
-Marvify erbjuder en interaktiv 3D-visare som gör det möjligt för er att visa upp era produkter digitalt – på ett engagerande och flexibelt sätt. Med en enkel länk kan ni låta era kunder rotera, zooma och utforska produkten i detalj, direkt i webbläsaren. Det fungerar lika bra på produkt- och kampanjsidor som i annonser, bloggar, sociala medier och mycket mera.
+Marvify erbjuder en interaktiv 3D-visare som gör det möjligt för er att visa upp era produkter digitalt – på ett engagerande och flexibelt sätt. Med en enkel länk kan ni låta era kunder rotera, zooma och utforska produkten i detalj, direkt i webbläsaren. Det fungerar lika bra på produkt- och kampanjsidor som i annonser, bloggar eller sociala medier.
 
 ---
 
@@ -13,7 +13,7 @@ Marvify erbjuder en interaktiv 3D-visare som gör det möjligt för er att visa 
 
 Vissa av exemplen i den här guiden kräver att ni kan lägga in en länk eller ett HTML-element på er webbplats eller e-handelsplattform.  
 Om ni är osäkra – klicka här för en enkel introduktion:  
-**[Länk till HTML/JS guide](#)**
+**[Läs en guide om hur man redigerar HTML](#)**
 
 ---
 
@@ -70,7 +70,7 @@ function open3DViewer() {
 ```
 ---
 
-### "Vi vill använda 3D i våra menyer, flyers och trycksaker"
+### "Vi ska trycka menyer – kan vi använda 3D?"
 
 **Lösning – skapa en QR-kod med er visningslänk:**  
 Exempel på QR-kodgenerator: [länk]
