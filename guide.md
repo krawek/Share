@@ -70,7 +70,7 @@ function open3DViewer() {
 ```
 ---
 
-### "Vi vill använda QR-koder i våra flyers och trycksaker"
+### "Vi vill använda 3D i våra menyer, flyers och trycksaker"
 
 **Lösning – skapa en QR-kod med er visningslänk:**  
 Exempel på QR-kodgenerator: [länk]
