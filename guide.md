@@ -5,7 +5,7 @@
 
 ## Vad är Marvify FOTO-3D?
 
-Marvify erbjuder en interaktiv visare som gör det möjligt för er att visa upp era FOTO-3D produkter digitalt – på ett engagerande och flexibelt sätt. Med en enkel länk kan ni låta era kunder rotera, zooma och utforska produkten i detalj, direkt i webbläsaren. Det fungerar lika bra på produkt- och kampanjsidor som i annonser, bloggar eller sociala medier.
+Marvify erbjuder en interaktiv visare som gör det möjligt för er att visa upp era FOTO-3D produkter digitalt – på ett engagerande och flexibelt sätt. Med en enkel länk kan ni låta era kunder rotera, zooma och utforska produkten i detalj, direkt i webbläsaren. Det fungerar lika bra på produkt- och kampanjsidor som i annonser, bloggar, sociala medier och e-commerce.
 
 ---
 
