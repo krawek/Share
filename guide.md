@@ -1,5 +1,5 @@
 # Marvify 3D Viewer  
-## Guide för användning
+## Guide för användning på er webbplats och i sociala medier
 
 ---
 
@@ -13,13 +13,13 @@ Marvify erbjuder en interaktiv 3D-visare som gör det möjligt för er att visa 
 
 Vissa av exemplen i den här guiden kräver att ni kan lägga in en länk eller ett HTML-element på er webbplats eller e-handelsplattform.  
 Om ni är osäkra – klicka här för en enkel introduktion:  
-**[Länk till HTML/JS guide]()**
+**[Läs en guide om hur man redigerar HTML](#)**
 
 ---
 
-## Exempel på hur ni kan använda 3D-visaren
+## 💬 Exempel på hur ni kan använda 3D-visaren
 
-### "Vi vill länka till 3D-visningen från vår hemsida eller ett blogginlägg"
+### "Vi vill länka till vår chipspåse i ett blogginlägg!"
 
 **Lösning – textlänk på webbsida eller i artikel:**
 ```HTML
@@ -27,7 +27,7 @@ Om ni är osäkra – klicka här för en enkel introduktion:
 ```
 ---
 
-### "Vi vill länka till 3D-visaren med en knapp"
+### "Vi vill lägga en snygg knapp på produktsidan för vår hallonrem!"
 
 **Lösning – länk stylad som knapp:**
 ```HTML
@@ -37,7 +37,7 @@ Ni kan använda er webbplats eller e-handelsplattform för att formatera länken
 
 ---
 
-### "Kan vi göra vår produktbild klickbar och länka till 3D-visaren?"
+### "Kan man klicka på bilden av lakritsen för att öppna 3D-visaren?"
 
 **Lösning – klickbar bild med länk:**
 ```HTML
@@ -47,7 +47,7 @@ Ni kan använda er webbplats eller e-handelsplattform för att formatera länken
 ```
 ---
 
-### "Vi vill visa våra produkter i en popup, inte i en ny flik"
+### "Vi vill visa våra energibars i en popup istället för ny flik!"
 
 **Lösning – öppna 3D-visaren i popupfönster:**
 
@@ -70,7 +70,7 @@ function open3DViewer() {
 ```
 ---
 
-### "Vi vill använda QR-koder i våra flyers och trycksaker"
+### "Vi ska trycka menyer – kan vi använda 3D?"
 
 **Lösning – skapa en QR-kod med er visningslänk:**  
 Exempel på QR-kodgenerator: [länk]
@@ -83,13 +83,12 @@ Textförslag:
 
 ---
 
-### "Vi vill visa vår 3D-visning direkt på vår hemsida"
+### "Vi vill bädda in visningen av våra praliner direkt på hemsidan!"
 
 **Lösning – inbäddning med iframe:**
 ```HTML
 <iframe src="https://v.marvify.io/?m=cHJhbGluZXM" width="100%" height="500px" style="border:none;"></iframe>
 ```
-
 **Notera:**  
 För att visningen ska fungera krävs att följande två säkerhetsinställningar är aktiverade i er webbserver:
 ```
@@ -98,7 +97,7 @@ Cross-Origin-Opener-Policy: same-origin
 ```
 Om dessa inte finns kommer visningen att blockeras i webbläsaren.
 
-**Exempel på hur man gör för vanliga plattformar:**
+**Exempel på guider för vanliga plattformar:**
 
 - Apache [länk till guide]  
 - Nginx [länk till guide]  
@@ -109,9 +108,9 @@ Om dessa inte finns kommer visningen att blockeras i webbläsaren.
 ---
 
 
-## Så kan ni använda 3D-visaren i sociala medier
+## 🌐 Så kan ni använda 3D-visaren i sociala medier
 
-Här visar vi hur ni kan använda er unika Marvify-länk i sociala medier för att marknadsföra era produkter.
+Här visar vi hur ni kan använda er unika Marvify-länk i sociala medier för att marknadsföra era produkter. Ni får konkreta exempel på hur ni kan publicera länken i vanliga inlägg, stories och annonser – oavsett om det görs via ert eget konto, en influencer eller en ambassadör.
 
 ---
 
@@ -123,8 +122,6 @@ Här visar vi hur ni kan använda er unika Marvify-länk i sociala medier för a
 
 Ni kan lägga länken till er 3D-visning i profilen (bio) och därefter skapa ett vanligt inlägg i flödet där ni hänvisar till den. Det fungerar oavsett om inlägget kommer från er själva, en influencer eller en ambassadör.
 
-*För mera länkar i profilen använd tjänster som Linktree*
-
 > Jag blev helt kär i de här nya småkakorna från @SweetCrave – och man kan faktiskt se hela förpackningen i 3D.  
 > Klicka på länken i min bio!  
 >  
@@ -132,7 +129,7 @@ Ni kan lägga länken till er 3D-visning i profilen (bio) och därefter skapa et
 
 **Lösning – Story med Link Sticker:**
 
-Skapa en Instagram Story med produktfoto/video och använd en **Link Sticker** för att lägga till klickbar länk direkt i bilden.
+Skapa en Instagram Story med produktfoto och använd en **Link Sticker** för att lägga till klickbar länk direkt i bilden.
 
 - Länk: https://v.marvify.io/?m=ZnJ1a3Rnb2Q=  
 - Text på stickern: *"Se i 3D"*
@@ -237,13 +234,16 @@ Ni kan använda er företagssida för att publicera ett organiskt inlägg eller 
 >  
 > https://v.marvify.io/?m=ZWNvc3BhY2sx
 
-## Så kan ni använda 3D-visaren på e-handelsplattformar
+
+---
+
+## 🛒 Så kan ni använda 3D-visaren på e-handelsplattformar
 
 På plattformar som WooCommerce, Shopify, Squarespace m.fl. kan ni enkelt länka till er Marvify-visning direkt från produktsidorna. Länken fungerar i alla webbläsare, även på mobil.
 
 ---
 
-### WooCommerce
+### "Vi har en WooCommerce-butik – hur lägger vi in vår 3D-länk till snackspåsen?"
 
 **Lösning – Lägg in en länk direkt i produktbeskrivningen:**
 
@@ -253,7 +253,7 @@ I WooCommerce kan ni redigera produktens innehåll via WordPress admin. Lägg in
 ```
 ---
 
-### Shopify
+### "Vi använder Shopify – hur visar vi våra gelégodis i 3D?"
 
 **Lösning – Lägg in länken i HTML-vyn i produktbeskrivningen:**
 
@@ -261,10 +261,9 @@ I Shopify går ni till adminpanelen → Produkter → Redigera produkt → Klick
 ```HTML
 <a href="https://v.marvify.io/?m=c2hvcGlmeXRlc3Q=" target="_blank">Utforska produkten i 3D</a>
 ```
-
 ---
 
-### Squarespace
+### "Vi har Squarespace – kan vi lägga in 3D-visning på chokladbitarna?"
 
 **Lösning – Länka direkt i produktbeskrivningen via editor:**
 
@@ -274,17 +273,17 @@ I Squarespace redigerar ni varje produktsida i editorn. Lägg till en vanlig lä
 ```
 ---
 
-### Webflow
+### "Vi bygger med Webflow – hur får vi med 3D-länken till nötmixen?"
 
 **Lösning – Lägg till en extern länk i produktens layout:**
 
 I Webflow använder ni designer-editorn för att lägga in knappar eller textlänkar. Sätt länken till er 3D-visning som en extern URL. Ni kan placera den precis där ni vill på sidan.
 
-Exempellänk: https://v.marvify.io/?m=d2ViZmxvd3Byb2Q=
+https://v.marvify.io/?m=d2ViZmxvd3Byb2Q=
 
 ---
 
-### Magento / Adobe Commerce
+### "Vi har vår butik i Magento – hur visar vi produkten i 3D där?"
 
 **Lösning – Redigera produktbeskrivningen i adminpanelen:**
 
