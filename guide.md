@@ -3,9 +3,9 @@
 
 ---
 
-## Vad är Marvify?
+## Vad är Marvify FOTO-3D?
 
-Marvify erbjuder en interaktiv 3D-visare som gör det möjligt för er att visa upp era produkter digitalt – på ett engagerande och flexibelt sätt. Med en enkel länk kan ni låta era kunder rotera, zooma och utforska produkten i detalj, direkt i webbläsaren. Det fungerar lika bra på produkt- och kampanjsidor som i annonser, bloggar eller sociala medier.
+Marvify erbjuder en interaktiv visare som gör det möjligt för er att visa upp era FOTO-3D produkter digitalt – på ett engagerande och flexibelt sätt. Med en enkel länk kan ni låta era kunder rotera, zooma och utforska produkten i detalj, direkt i webbläsaren. Det fungerar lika bra på produkt- och kampanjsidor som i annonser, bloggar eller sociala medier.
 
 ---
 
@@ -19,7 +19,7 @@ Om ni är osäkra – klicka här för en enkel introduktion:
 
 ## 💬 Exempel på hur ni kan använda 3D-visaren
 
-### "Vi vill länka till vår chipspåse i ett blogginlägg!"
+### "Vi vill länka till vår FOTO-3D chipspåse på hemsidan!"
 
 **Lösning – textlänk på webbsida eller i artikel:**
 ```HTML
@@ -27,7 +27,7 @@ Om ni är osäkra – klicka här för en enkel introduktion:
 ```
 ---
 
-### "Vi vill lägga en snygg knapp på produktsidan för vår hallonrem!"
+### "Vi vill lägga en snygg knapp på produktsidan för vår FOTO-3D Pizza!"
 
 **Lösning – länk stylad som knapp:**
 ```HTML
@@ -37,7 +37,7 @@ Ni kan använda er webbplats eller e-handelsplattform för att formatera länken
 
 ---
 
-### "Kan man klicka på bilden av lakritsen för att öppna 3D-visaren?"
+### "Kan man klicka på bilden av lakritsen på min hemsida för att öppna FOTO-3D?"
 
 **Lösning – klickbar bild med länk:**
 ```HTML
@@ -47,9 +47,9 @@ Ni kan använda er webbplats eller e-handelsplattform för att formatera länken
 ```
 ---
 
-### "Vi vill visa våra energibars i en popup istället för ny flik!"
+### "Vi vill visa våra FOTO-3D energibars i en popup istället för ny flik!"
 
-**Lösning – öppna 3D-visaren i popupfönster:**
+**Lösning – öppna visaren i popupfönster:**
 
 Ni kan använda både en **knapp** eller en **länk** för att öppna popupen.
 
@@ -61,6 +61,7 @@ Exempel med länk:
 ```HTML
 <a href="#" onclick="open3DViewer()">Öppna 3D-visning</a>
 ```
+Javascript:
 ```JS
 <script>
 function open3DViewer() {
@@ -70,7 +71,7 @@ function open3DViewer() {
 ```
 ---
 
-### "Vi ska trycka menyer – kan vi använda 3D?"
+### "Vi ska trycka menyer – kan vi använda FOTO-3D?"
 
 **Lösning – skapa en QR-kod med er visningslänk:**  
 Exempel på QR-kodgenerator: [länk]
@@ -83,19 +84,19 @@ Textförslag:
 
 ---
 
-### "Vi vill bädda in visningen av våra praliner direkt på hemsidan!"
+### "Vi vill bädda in visningen av våra FOTO-3D praliner direkt på hemsidan!"
 
 **Lösning – inbäddning med iframe:**
 ```HTML
 <iframe src="https://v.marvify.io/?m=cHJhbGluZXM" width="100%" height="500px" style="border:none;"></iframe>
 ```
 **Notera:**  
-För att visningen ska fungera krävs att följande två säkerhetsinställningar är aktiverade i er webbserver:
+För att visaren ska fungera krävs att följande två säkerhetsinställningar är aktiverade i er webb-server:
 ```
 Cross-Origin-Embedder-Policy: require-corp  
 Cross-Origin-Opener-Policy: same-origin
 ```
-Om dessa inte finns kommer visningen att blockeras i webbläsaren.
+Om dessa inte finns kommer innehåll i visaren att blockeras i webbläsaren.
 
 **Exempel på guider för vanliga plattformar:**
 
@@ -108,7 +109,7 @@ Om dessa inte finns kommer visningen att blockeras i webbläsaren.
 ---
 
 
-## 🌐 Så kan ni använda 3D-visaren i sociala medier
+## 🌐 Så kan ni använda visaren i sociala medier
 
 Här visar vi hur ni kan använda er unika Marvify-länk i sociala medier för att marknadsföra era produkter. Ni får konkreta exempel på hur ni kan publicera länken i vanliga inlägg, stories och annonser – oavsett om det görs via ert eget konto, en influencer eller en ambassadör.
 
@@ -120,12 +121,11 @@ Här visar vi hur ni kan använda er unika Marvify-länk i sociala medier för a
 
 **Lösning – Länk i bio:**
 
-Ni kan lägga länken till er 3D-visning i profilen (bio) och därefter skapa ett vanligt inlägg i flödet där ni hänvisar till den. Det fungerar oavsett om inlägget kommer från er själva, en influencer eller en ambassadör.
+Ni kan lägga länken till er visare i profilen (bio) och därefter skapa ett vanligt inlägg i flödet där ni hänvisar till den. Det fungerar oavsett om inlägget kommer från er själva, en influencer eller en ambassadör.
 
 > Jag blev helt kär i de här nya småkakorna från @SweetCrave – och man kan faktiskt se hela förpackningen i 3D.  
 > Klicka på länken i min bio!  
->  
-> https://v.marvify.io/?m=c2FtcGxlbGluaw
+>
 
 **Lösning – Story med Link Sticker:**
 
