@@ -3,9 +3,9 @@
 
 ---
 
-## Vad är Marvify FOTO-3D?
+## Vad är Marvify FOTO-3D<sup>©</sup>?
 
-Marvify erbjuder en interaktiv visare som gör det möjligt för er att visa upp era FOTO-3D produkter digitalt – på ett engagerande och flexibelt sätt. Med en enkel länk kan ni låta era kunder rotera, zooma och utforska produkten i detalj, direkt i webbläsaren. Det fungerar lika bra på produkt- och kampanjsidor som i annonser, bloggar, sociala medier och e-commerce.
+Marvify erbjuder en interaktiv visare som gör det möjligt för er att visa upp era FOTO-3D<sup>©</sup> produkter digitalt – på ett engagerande och flexibelt sätt. Med en enkel länk kan ni låta era kunder rotera, zooma och utforska produkten i detalj, direkt i webbläsaren. Det fungerar lika bra på produkt- och kampanjsidor som i annonser, bloggar, sociala medier och e-commerce.
 
 ---
 
@@ -19,7 +19,7 @@ Om ni är osäkra – klicka här för en enkel introduktion:
 
 ## 💬 Exempel på hur ni kan använda 3D-visaren
 
-### "Vi vill länka till vår FOTO-3D chipspåse på hemsidan!"
+### "Vi vill länka till vår FOTO-3D<sup>©</sup> chipspåse på hemsidan!"
 
 **Lösning – textlänk på webbsida eller i artikel:**
 ```HTML
@@ -27,7 +27,7 @@ Om ni är osäkra – klicka här för en enkel introduktion:
 ```
 ---
 
-### "Vi vill lägga en snygg knapp på produktsidan för vår FOTO-3D Pizza!"
+### "Vi vill lägga en snygg knapp på produktsidan för vår FOTO-3D<sup>©</sup> Pizza!"
 
 **Lösning – länk stylad som knapp:**
 ```HTML
@@ -37,7 +37,7 @@ Ni kan använda er webbplats eller e-handelsplattform för att formatera länken
 
 ---
 
-### "Kan man klicka på bilden av lakritsen på min hemsida för att öppna FOTO-3D?"
+### "Kan man klicka på bilden av lakritsen på min hemsida för att öppna FOTO-3D<sup>©</sup>?"
 
 **Lösning – klickbar bild med länk:**
 ```HTML
@@ -47,7 +47,7 @@ Ni kan använda er webbplats eller e-handelsplattform för att formatera länken
 ```
 ---
 
-### "Vi vill visa våra FOTO-3D energibars i en popup istället för ny flik!"
+### "Vi vill visa våra FOTO-3D<sup>©</sup> energibars i en popup istället för ny flik!"
 
 **Lösning – öppna visaren i popupfönster:**
 
@@ -71,7 +71,7 @@ function open3DViewer() {
 ```
 ---
 
-### "Vi ska trycka menyer – kan vi använda FOTO-3D?"
+### "Vi ska trycka menyer – kan vi använda FOTO-3D<sup>©</sup>?"
 
 **Lösning – skapa en QR-kod med er visningslänk:**  
 Exempel på QR-kodgenerator: [länk]
@@ -84,7 +84,7 @@ Textförslag:
 
 ---
 
-### "Vi vill bädda in visningen av våra FOTO-3D praliner direkt på hemsidan!"
+### "Vi vill bädda in visningen av våra FOTO-3D<sup>©</sup> praliner direkt på hemsidan!"
 
 **Lösning – inbäddning med iframe:**
 ```HTML
@@ -237,13 +237,13 @@ Ni kan använda er företagssida för att publicera ett organiskt inlägg eller 
 
 ---
 
-## 🛒 Så kan ni använda 3D-visaren på e-handelsplattformar
+## 🛒 Så kan ni använda visaren på e-handelsplattformar
 
-På plattformar som WooCommerce, Shopify, Squarespace m.fl. kan ni enkelt länka till er Marvify-visning direkt från produktsidorna. Länken fungerar i alla webbläsare, även på mobil.
+På plattformar som WooCommerce, Shopify, Squarespace m.fl. kan ni enkelt länka till er FOTO-3D<sup>©</sup>-visning direkt från produktsidorna. Länken fungerar i alla webbläsare, även på mobil.
 
 ---
 
-### "Vi har en WooCommerce-butik – hur lägger vi in vår 3D-länk till snackspåsen?"
+### "Vi har en WooCommerce-butik – hur lägger vi in vår FOTO-3D<sup>©</sup> av snackspåsen?"
 
 **Lösning – Lägg in en länk direkt i produktbeskrivningen:**
 
@@ -253,7 +253,7 @@ I WooCommerce kan ni redigera produktens innehåll via WordPress admin. Lägg in
 ```
 ---
 
-### "Vi använder Shopify – hur visar vi våra gelégodis i 3D?"
+### "Vi använder Shopify – hur visar vi våra gelégodis i FOTO-3D<sup>©</sup>?"
 
 **Lösning – Lägg in länken i HTML-vyn i produktbeskrivningen:**
 
@@ -263,7 +263,7 @@ I Shopify går ni till adminpanelen → Produkter → Redigera produkt → Klick
 ```
 ---
 
-### "Vi har Squarespace – kan vi lägga in 3D-visning på chokladbitarna?"
+### "Vi har Squarespace – kan vi lägga in FOTO-3D<sup>©</sup> av chokladbitarna?"
 
 **Lösning – Länka direkt i produktbeskrivningen via editor:**
 
@@ -273,7 +273,7 @@ I Squarespace redigerar ni varje produktsida i editorn. Lägg till en vanlig lä
 ```
 ---
 
-### "Vi bygger med Webflow – hur får vi med 3D-länken till nötmixen?"
+### "Vi bygger med Webflow – hur får vi med FOTO-3D<sup>©</sup> som visar nötmixen?"
 
 **Lösning – Lägg till en extern länk i produktens layout:**
 
@@ -283,7 +283,7 @@ https://v.marvify.io/?m=d2ViZmxvd3Byb2Q=
 
 ---
 
-### "Vi har vår butik i Magento – hur visar vi produkten i 3D där?"
+### "Vi har vår butik i Magento – hur visar vi produkten i FOTO-3D<sup>©</sup> där?"
 
 **Lösning – Redigera produktbeskrivningen i adminpanelen:**
 
