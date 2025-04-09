@@ -8,27 +8,27 @@ Cross-Origin-Embedder-Policy: require-corp
 Cross-Origin-Opener-Policy: same-origin
 ```
 
-Dessa rubriker krävs för att visaren ska fungera korrekt i moderna webbläsare. Utan dem kan visningen blockeras.
+Dessa rubriker krävs för att visaren ska fungera korrekt i moderna webbläsare. Utan dem blockeras visningen.
 
 ---
 
-## ✅ Kompatibilitetsmatris
+## ✅ Kompatibilitetsmatris web hosting
 
 | Plattform                        | Går det att ställa in rubriker? | Stöd för inbäddning | Kommentar |
 |----------------------------------|----------------------------------|----------------------|-----------|
-| Apache (egen server)             | ✅ Ja                            | ✅ Fullt stöd        | Redigera `.htaccess` eller serverinställningar |
-| Nginx (egen server)              | ✅ Ja                            | ✅ Fullt stöd        | Kräver åtkomst till Nginx-konfigurationsfilen |
+| Apache           | ✅ Ja                            | ✅ Fullt stöd        | Redigera `.htaccess` eller serverinställningar |
+| Nginx             | ✅ Ja                            | ✅ Fullt stöd        | Kräver åtkomst till Nginx-konfigurationsfilen |
 | Node.js (Express)                | ✅ Ja                            | ✅ Fullt stöd        | Ändra serverkod med Express-mellanlager |
 | Netlify                          | ✅ Ja                            | ✅ Fullt stöd        | Lägg till i filen `_headers` i projektroten |
 | Cloudflare Pages / Workers       | ✅ Ja                            | ✅ Fullt stöd        | Använd `_headers`-fil eller Workers-script |
 | Vercel                           | ✅ Ja                            | ✅ Fullt stöd        | Lägg till i `vercel.json`-konfigurationen |
 | WordPress (egen host)            | ✅ Ja                            | ✅ Fullt stöd        | Som Apache/Nginx beroende på hostingleverantör |
 | Firebase Hosting                 | ✅ Ja                            | ✅ Fullt stöd        | Redigera `firebase.json` |
-| WordPress.com (hostad)           | ❌ Nej                           | ❌ Inget stöd        | Ingen åtkomst till serverinställningar |
+| WordPress.com (hostad)           | ❌ Nej                           | ❌ Inget stöd        | Begränsad plattform utan serverkontroll |
 | Wix                              | ❌ Nej                           | ❌ Inget stöd        | Begränsad plattform utan serverkontroll |
-| Squarespace                      | ❌ Nej                           | ❌ Inget stöd        | Detsamma som ovan |
-| Shopify                          | ❌ Nej                           | ❌ Inget stöd        | Ingen möjlighet att ändra headers |
-| Webflow                          | ❌ Nej                           | ❌ Inget stöd        | Endast begränsat stöd för anpassad kod |
+| Squarespace                      | ❌ Nej                           | ❌ Inget stöd        | Begränsad plattform utan serverkontroll |
+| Shopify                          | ❌ Nej                           | ❌ Inget stöd        | Begränsad plattform utan serverkontroll |
+| Webflow                          | ❌ Nej                           | ❌ Inget stöd        | Endast begränsat stöd för anpassad kod  |
 
 
 ---
@@ -50,7 +50,7 @@ För mer hjälp: [Apache .htaccess Docs](https://httpd.apache.org/docs/current/h
 
 ### Nginx
 
-👉 För mer hjälp: [Nginx Headers Module](https://nginx.org/en/docs/http/ngx_http_headers_module.html)
+För mer hjälp: [Nginx Headers Module](https://nginx.org/en/docs/http/ngx_http_headers_module.html)
 
 ```nginx
 add_header Cross-Origin-Embedder-Policy "require-corp" always;
@@ -63,7 +63,7 @@ add_header Cross-Origin-Opener-Policy "same-origin" always;
 
 ### Node.js (Express)
 
-👉 För mer hjälp: [Express API Docs](https://expressjs.com/en/4x/api.html#res.set)
+För mer hjälp: [Express API Docs](https://expressjs.com/en/4x/api.html#res.set)
 
 ```js
 app.use((req, res, next) => {
@@ -79,7 +79,7 @@ app.use((req, res, next) => {
 
 ### Netlify
 
-👉 För mer hjälp: [Netlify Headers Docs](https://docs.netlify.com/routing/headers/)
+För mer hjälp: [Netlify Headers Docs](https://docs.netlify.com/routing/headers/)
 
 Skapa eller redigera en `_headers`-fil i projektets rot:
 
@@ -93,7 +93,7 @@ Skapa eller redigera en `_headers`-fil i projektets rot:
 
 ### Cloudflare Pages
 
-👉 För mer hjälp: [Cloudflare Pages Headers](https://developers.cloudflare.com/pages/platform/headers/)
+För mer hjälp: [Cloudflare Pages Headers](https://developers.cloudflare.com/pages/platform/headers/)
 
 Använd en `_headers`-fil:
 
@@ -127,7 +127,7 @@ async function handleRequest(request) {
 
 ### Vercel
 
-👉 För mer hjälp: [Vercel Headers Docs](https://vercel.com/docs/projects/project-configuration#headers)
+För mer hjälp: [Vercel Headers Docs](https://vercel.com/docs/projects/project-configuration#headers)
 
 Lägg till i `vercel.json`:
 
@@ -155,7 +155,7 @@ Lägg till i `vercel.json`:
 
 ### Firebase Hosting
 
-👉 För mer hjälp: [Firebase Hosting Headers](https://firebase.google.com/docs/hosting/full-config#headers)
+För mer hjälp: [Firebase Hosting Headers](https://firebase.google.com/docs/hosting/full-config#headers)
 
 Redigera `firebase.json`:
 
@@ -183,7 +183,7 @@ Redigera `firebase.json`:
 
 ---
 
-## ❌ Plattformar som **inte** stöder inbäddning
+## Plattformar som **inte** stöder inbäddning
 
 Följande plattformar tillåter **inte** att de nödvändiga säkerhetsrubrikerna sätts, vilket gör att `<iframe>`-inbäddning **inte** fungerar:
 
@@ -195,7 +195,7 @@ Följande plattformar tillåter **inte** att de nödvändiga säkerhetsrubrikern
 
 ---
 
-## 🧩 Alternativ lösning: Öppna visaren i nytt fönster
+## Alternativ lösning: Öppna visaren i nytt fönster
 
 Om du använder en plattform som inte stöder COEP/COOP kan du ändå länka till visaren utan att förlora besökaren:
 
