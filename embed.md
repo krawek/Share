@@ -197,10 +197,10 @@ Följande plattformar tillåter **inte** att de nödvändiga säkerhetsrubrikern
 
 ## Alternativ lösning: Öppna visaren i nytt fönster
 
-Om du använder en plattform som inte stöder COEP/COOP kan du ändå länka tillvisaren:
+Om du använder en plattform som inte stöder COEP/COOP kan du ändå länka till visaren:
 
 ### Lösning 1 – Länk eller knapp
-
+I eran HTML lägg till följande kod där ni vill skapa länken (knapp/bild/text)
 ```html
 <a href="https://v.marvify.io/?m=cHJhbGluZXM" target="_blank" rel="noopener">
   Visa i 3D
