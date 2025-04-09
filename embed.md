@@ -197,7 +197,7 @@ Följande plattformar tillåter **inte** att de nödvändiga säkerhetsrubrikern
 
 ## Alternativ lösning: Öppna visaren i nytt fönster
 
-Om du använder en plattform som inte stöder COEP/COOP kan du ändå länka till visaren utan att förlora besökaren:
+Om du använder en plattform som inte stöder COEP/COOP kan du ändå länka tillvisaren:
 
 ### Lösning 1 – Länk eller knapp
 
