@@ -19,7 +19,7 @@ Om ni är osäkra – klicka här för en enkel introduktion:
 
 ## 💬 Exempel på hur ni kan använda 3D-visaren
 
-### "Vi vill länka till vår FOTO-3D<sup>©</sup> chipspåse på hemsidan!"
+### "Vi vill länka till vår FOTO-3D<sup>©</sup> chipspåse på hemsidan"
 
 **Lösning – textlänk på webbsida eller i artikel:**
 ```HTML
