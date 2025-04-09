@@ -98,13 +98,8 @@ Cross-Origin-Opener-Policy: same-origin
 ```
 Om dessa inte finns kommer innehåll i visaren att blockeras i webbläsaren.
 
-**Exempel på guider för vanliga plattformar:**
-
-- Apache [länk till guide]  
-- Nginx [länk till guide]  
-- Node.js (Express) [länk till guide]  
-- Netlify [länk till guide]  
-- Cloudflare Pages / Workers [länk till guide]
+För instruktioner och kompatibilitet se våran guide:
+[GUIDE!](embed.md)
 
 ---
 
