@@ -151,6 +151,20 @@ Att kombinera detta med heartbeat-funktionalitet och fler mål för kommunikatio
 
 ---
 
+## Intern katalog
+
+**Beskrivning av arbetet:**  
+Detta arbete innebär att vi skapar och konfigurerar en lösning för att få en överblick över alla FOTO-3D-modeller samt deras nuvarande status, såsom “I produktion”, “Demo”, “Test” osv.  
+Idag finns ingen sammanhängande plats för att se alla aktiva länkar och vilken kund eller vilket objekt de tillhör. Monday.com är inte lämpat för att fungera som repository för live-länkar, så vi behöver hitta eller bygga ett alternativ.  
+Tanken är att den person som ansvarar för det sista steget i modellskapandet manuellt lägger in länken och status i den valda lösningen. På sikt – när vi har ett CRM eller motsvarande – skulle denna process kunna automatiseras så att onboarding-personen tar hänsyn till CRM-information vid publicering.  
+Vid ett mer avancerat framtida läge skulle modeller även kunna “stängas av” automatiskt, t.ex. vid avslutad prenumeration, antingen manuellt via CRM eller helt automatiserat.
+
+**Motivering:**  
+Utan ett centralt system för att hålla koll på aktiva modeller och deras tillstånd riskerar vi oordning, brutna länkar eller att kundkrav inte uppfylls. En intern katalog möjliggör snabb överblick, kvalitetssäkring, och bättre kundsupport.  
+I det korta perspektivet skapar det tydlighet internt – i det långa perspektivet bygger det grunden för automation och integration med framtida CRM-system.
+
+---
+
 # Ej beslutat
 
 ## Adminpanel *(om vi går den vägen)*
