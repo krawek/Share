@@ -127,10 +127,12 @@ Att ha kunskap om hur riggen fungerar skapar redundans i teamet, minskar beroend
 
 **Beskrivning av arbetet:**  
 Varje gång vi lär oss något nytt om hur man bäst fotograferar ett objekt, effektiviserar en process eller på annat sätt förbättrar vårt arbete, ska det dokumenteras i en intern wiki. Detta bör ske som en naturlig del av avslutsfasen för ett projekt. Exempelvis, om en kund har ett ovanligt objekt som krävde särskild ljussättning eller upphöjd placering, ska det skrivas ner och taggas med relevanta attribut (t.ex. objektform, material, kundnamn). På så sätt kan vi undvika att upprepa testning eller felsökning i framtiden.  
-Wikin ska inte begränsas till fotografering, utan täcka alla processer och arbetsmoment som inte är direkt kopplade till kod (kodrelaterad dokumentation hålls separat i GitHub). Vi behöver också utvärdera om wikin ska hostas lokalt eller i molnet, där det förstnämnda kräver mer underhåll men ger full kontroll, medan det sistnämnda innebär lägre driftbörda men högre kostnad.
+Wikin ska inte begränsas till fotografering, utan täcka alla processer och arbetsmoment som inte är direkt kopplade till kod (kodrelaterad dokumentation hålls separat i GitHub).  
+Vi bör använda en lösning som **GitBook** eller liknande, vilket gör det möjligt att hantera både interna och kundriktade dokumentationer i samma system. Den stora fördelen med ett sådant system är att dokumentationen kan uppdateras löpande utan att påverka tillgängligheten på vår hemsida eller kräva omstarter. Det gör även arbetet med att bygga vår webbsida enklare, då kunddokumentation kan länkas in direkt istället för att behöva byggas in manuellt.
 
 **Motivering:**  
-Att centralisera lärdomar och rutiner i en wiki sparar tid, minskar dubbelarbete och gör det enklare för nya teammedlemmar att komma in i arbetet. Istället för att varje person bygger upp kunskap själv, kan vi återanvända erfarenheter och lösningar från tidigare projekt. En välorganiserad wiki minskar också behovet av muntlig kunskapsöverföring och bidrar till ökad kvalitet, jämnare output och bättre skalbarhet av hela FOTO-3D-processen.
+Att centralisera lärdomar och rutiner i en wiki sparar tid, minskar dubbelarbete och gör det enklare för nya teammedlemmar att komma in i arbetet. Istället för att varje person bygger upp kunskap själv, kan vi återanvända erfarenheter och lösningar från tidigare projekt. En välorganiserad wiki minskar också behovet av muntlig kunskapsöverföring och bidrar till ökad kvalitet, jämnare output och bättre skalbarhet av hela FOTO-3D-processen.  
+Att använda ett verktyg som GitBook för detta ger oss en professionell, lättillgänglig och skalbar lösning för dokumentation — både internt och externt. Dessutom blir dokumentationsflödet frikopplat från vår webbplattform, vilket förenklar både underhåll och framtida utveckling.
 
 ---
 
