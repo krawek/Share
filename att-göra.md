@@ -55,7 +55,7 @@ Samtidigt har kodbasen blivit tillräckligt komplex för att göra framtida iter
 
 **Beskrivning av arbetet:**  
 Funktionaliteten för reducerad splatfilstorlek som implementerats i träningsskriptet behöver speglas i capture-verktygets UI, så att användaren som fotograferar våra objekt kan välja om den ska användas, hur många iterationer som ska köras och vid vilken procentuell nedskalning. Detta gör det möjligt att genom testning hitta ett standardvärde som ger mindre splats med bibehållen kvalitet, men också att finjustera inställningen för särskilt viktiga objekt eller VIP-kunder där högsta möjliga kvalitet prioriteras över snabbhet.  
-Utöver detta måste logging implementeras, helst med koppling till loggingservern. Det gör att vi kan fånga upp fel direkt och återgå till fotografering snabbt. Om fotografering sker offline (t.ex. i en mobil rigg som en lastbil) måste loggar buffras lokalt och skickas när anslutning finns igen.  
+Utöver detta måste logging implementeras, helst med koppling till loggingservern. Det gör att vi kan fånga upp fel direkt och återgå till fotografering snabbt. Om fotografering sker offline (t.ex. i en mobil rigg som en bil) måste loggar buffras lokalt och skickas när anslutning finns igen.  
 Slutligen har kodbasen vuxit sig stor och komplex, och funktioner samt kodflöden måste dokumenteras för att undvika onödig tidsförlust vid framtida utveckling.
 
 **Motivering:**  
