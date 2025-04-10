@@ -48,18 +48,24 @@ Samtidigt har kodbasen blivit tillräckligt komplex för att göra framtida iter
 
 ---
 
-## Capture-skript
-- Minska antal splats  
-- Logging  
-- Dokumentation  
+### **Capture-skript**  
+**Minska antal splats**  
+**Logging**  
+**Dokumentation**
+
+---
 
 **Beskrivning av arbetet:**  
-Funktionaliteten för reducerad splatfilstorlek som implementerats i träningsskriptet behöver speglas i capture-verktygets UI, så att användaren som fotograferar våra objekt kan välja om den ska användas, hur många iterationer som ska köras och vid vilken procentuell nedskalning. Detta gör det möjligt att genom testning hitta ett standardvärde som ger mindre splats med bibehållen kvalitet, men också att finjustera inställningen för särskilt viktiga objekt eller VIP-kunder där högsta möjliga kvalitet prioriteras över snabbhet.  
-Utöver detta måste logging implementeras, helst med koppling till loggingservern. Det gör att vi kan fånga upp fel direkt och återgå till fotografering snabbt. Om fotografering sker offline (t.ex. i en mobil rigg som en bil) måste loggar buffras lokalt och skickas när anslutning finns igen.  
+Funktionaliteten för reducerad splatfilstorlek som implementerats i träningsskriptet behöver speglas i capture-verktygets UI, så att användaren som fotograferar våra objekt kan välja om den ska användas, hur många iterationer som ska köras och vid vilken procentuell nedskalning. Detta gör det möjligt att genom testning hitta ett standardvärde som ger mindre splats med bibehållen kvalitet, men också att finjustera inställningen för särskilt viktiga objekt eller VIP-kunder där högsta möjliga kvalitet prioriteras över snabbhet.
+
+Utöver detta måste logging implementeras, helst med koppling till loggingservern. Det gör att vi kan fånga upp fel direkt och återgå till fotografering snabbt. Om fotografering sker offline (t.ex. i en mobil rigg som en bil) måste loggar buffras lokalt och skickas när anslutning finns igen. En ännu bättre lösning än att endast buffra loggar vore att också visa felmeddelanden tydligt för användaren direkt i offline-läget, så att de kan agera på eventuella problem i stunden. Vi bör även utvärdera möjligheten att använda mobila internetuppkopplingar under arbete på fältet för att minimera offline-scenarier helt.
+
 Slutligen har kodbasen vuxit sig stor och komplex, och funktioner samt kodflöden måste dokumenteras för att undvika onödig tidsförlust vid framtida utveckling.
 
+---
+
 **Motivering:**  
-Att kunna styra splatnedskalning direkt från UI:t gör det möjligt att snabbt nå en standard som fungerar bra för majoriteten av objekten, men också justera för unika krav. Detta förbättrar både flexibilitet och resultatkvalitet. Logging är kritisk för att kunna felsöka direkt vid fel i fotofasen, särskilt i ett scenario där arbetet sker mobilt och inte alltid är uppkopplat. En fungerande buffertlösning för loggar garanterar att vi inte tappar bort värdefull information vid offlinearbete. Dokumentation är ett måste för att undvika framtida flaskhalsar – den ökade kodkomplexiteten gör att varje ny funktion eller justering annars kräver flera dagars ramp-up.
+Att kunna styra splatnedskalning direkt från UI:t gör det möjligt att snabbt nå en standard som fungerar bra för majoriteten av objekten, men också justera för unika krav. Detta förbättrar både flexibilitet och resultatkvalitet. Logging är kritisk för att kunna felsöka direkt vid fel i fotofasen, särskilt i ett scenario där arbetet sker mobilt och inte alltid är uppkopplat. Enbart lokal buffering räcker inte alltid – att även visa fel på ett tydligt sätt för operatören vid offlinearbete kan vara avgörande för att inte missa viktiga problem. Därför bör vi även överväga att använda mobil uppkoppling i riggarna där det är möjligt. Dokumentation är ett måste för att undvika framtida flaskhalsar – den ökade kodkomplexiteten gör att varje ny funktion eller justering annars kräver flera dagars ramp-up.
 
 ---
 
